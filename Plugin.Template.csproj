@@ -1,10 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net7.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>MoBro.Plugin.Template</RootNamespace>
+        <Authors>ModBros</Authors>
+        <Company>ModBros OG</Company>
+        <Product>MoBro</Product>
+        <Description>Plugin Template for MoBro</Description>
+        <IsPackable>false</IsPackable>
+        <Title>MoBro Plugin Template</Title>
+        <Copyright>(C) ModBros OG 2023</Copyright>
+        <PackageProjectUrl>www.mod-bros.com</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ModBros/mobro-plugin-template</RepositoryUrl>
+        <VersionPrefix>0.0.1</VersionPrefix>
+        <IsPackable>false</IsPackable>
         <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
+        <EnableDynamicLoading>true</EnableDynamicLoading>
+        <Nullable>enable</Nullable>
+        <LangVersion>11</LangVersion>
+        <InvariantGlobalization>true</InvariantGlobalization>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,7 +30,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="MoBro.Plugin.SDK" Version="0.1.9" />
+      <PackageReference Include="MoBro.Plugin.SDK" Version="0.1.9" PrivateAssets="all"/>
     </ItemGroup>
 
 </Project>

@@ -1,10 +1,11 @@
+using System;
 using Microsoft.Extensions.Logging;
 using MoBro.Plugin.SDK;
 using MoBro.Plugin.SDK.Builders;
 using MoBro.Plugin.SDK.Enums;
 using MoBro.Plugin.SDK.Services;
 
-namespace Plugin.Template;
+namespace MoBro.Plugin.Template;
 
 public class Plugin : IMoBroPlugin
 {

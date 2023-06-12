@@ -23,14 +23,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Update="mobro_plugin_config.json">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      </Content>
+        <Content Include="mobro_plugin_config.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="MoBro.Plugin.SDK" Version="0.1.9" PrivateAssets="all"/>
+        <PackageReference Include="MoBro.Plugin.SDK" Version="0.1.9" PrivateAssets="all"/>
     </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 ﻿using System;
-using MoBro.Plugin.SDK.Testing;
+using MoBro.Plugin.SDK;
 using MoBro.Plugin.Template;
 
 // create and start the plugin to test it locally

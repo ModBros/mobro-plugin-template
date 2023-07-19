@@ -1,6 +1,6 @@
 {
-  "name": "mobro_plugin_template",
-  "displayName": "Plugin Template",
+  "name": "example_plugin",
+  "displayName": "Example Plugin",
   "author": "",
   "description": null,
   "assembly": "Plugin.Template.dll",
@@ -10,45 +10,10 @@
       "type": "number",
       "name": "update_frequency",
       "label": "Update frequency",
-      "description": "Example setting for the update frequency",
+      "description": "Metric value update frequency",
       "required": true,
       "defaultValue": 2,
-      "min": 1,
-      "max": 100
-    },
-    {
-      "type": "string",
-      "name": "string_example",
-      "label": "String example",
-      "description": "String example description",
-      "defaultValue": "",
-      "required": false
-    },
-    {
-      "type": "checkbox",
-      "name": "checkbox_example",
-      "label": "Checkbox example",
-      "description": "Checkbox example description",
-      "defaultValue": true,
-      "required": false
-    },
-    {
-      "type": "select",
-      "name": "select_example",
-      "label": "Select example",
-      "description": "Select example description",
-      "defaultValue": "opt1",
-      "required": false,
-      "options": [
-        {
-          "label": "Option 1",
-          "value": "opt1"
-        },
-        {
-          "label": "Option 2",
-          "value": "opt2"
-        }
-      ]
+      "min": 1
     }
   ]
 }

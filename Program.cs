@@ -8,4 +8,5 @@ var plugin = MoBroPluginBuilder
   .WithSetting("update_frequency", "2")
   .Build();
 
+// prevent the program from exiting immediately
 Console.ReadLine();

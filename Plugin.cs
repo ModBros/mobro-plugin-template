@@ -1,4 +1,3 @@
-using System;
 using System.Runtime.InteropServices;
 using MoBro.Plugin.SDK;
 using MoBro.Plugin.SDK.Builders;
@@ -92,9 +91,5 @@ public class Plugin : IMoBroPlugin
     // normally we would retrieve the new value first by e.g. reading a sensor or calling an external API
     _mobro.UpdateMetricValue("cpu_usage", _random.NextDouble() * 100);
     _mobro.UpdateMetricValue("ram_in_use", _random.NextDouble() * 1_000_000_000);
-  }
-
-  public void Dispose()
-  {
   }
 }

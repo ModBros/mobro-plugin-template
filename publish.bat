@@ -12,8 +12,9 @@ dotnet publish^
     --output %1^
     .
 
-@REM delete the .exe file as it's not needed by MoBro
+@REM delete the .exe and deps.json files as it's not needed by MoBro
 DEL %1\*.exe
+DEL %1\*.deps.json
 
 @REM zip the plugin folder
 "C:\Program Files\7-Zip\7z.exe" a -tzip "%1.zip" "%1\*"

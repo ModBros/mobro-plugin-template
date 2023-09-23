@@ -15,18 +15,14 @@ It contains the basic setup as well as some example code on how to
 - define and access the plugin settings
 - set up a scheduled task to continuously poll metric values
 
-## Publish
-
-You can publish the plugin to a .zip file by running the included `publish_zip.bat` script from within the project.  
-(Requires 7Zip to be installed)
-
-```
-./publish_zip.bat YourPluginName_v1
-```
-
 ## SDK
 
 The plugin is built using the [MoBro Plugin SDK](https://github.com/ModBros/mobro-plugin-sdk).  
+Detailed developer documentation is available at [developer.mobro.app](https://developer.mobro.app).
+
+## CLI
+
+The easiest way to test and publish a plugin is the [MoBro plugin CLI](https://github.com/ModBros/mobro-plugin-cli).  
 Detailed developer documentation is available at [developer.mobro.app](https://developer.mobro.app).
 
 ---

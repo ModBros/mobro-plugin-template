@@ -17,11 +17,23 @@ It contains the basic setup as well as some example code on how to
 
 ## Publish
 
-You can publish the plugin to a .zip file by running the included `publish_zip.bat` script from within the project.  
-(Requires 7Zip to be installed)
+### CLI
+
+The easiest way to publish the plugin is to utilize
+the [MoBro Plugin CLI](https://github.com/ModBros/mobro-plugin-cli).  
+Just execute from within the project directory:
 
 ```
-./publish_zip.bat YourPluginName_v1
+mobro publish .
+```
+
+### Script
+
+Alternatively the plugin can be published by running the included [`publish_zip.bat`](./publish.bat) script from within
+the project. (Requires 7Zip to be installed)
+
+```
+./publish.bat YourPluginName_v1
 ```
 
 ## SDK

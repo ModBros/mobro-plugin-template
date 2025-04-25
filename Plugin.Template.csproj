@@ -11,7 +11,7 @@
         <Copyright>(C) ModBros KG 2025</Copyright>
         <PackageProjectUrl>https://mobro.app</PackageProjectUrl>
         <RepositoryUrl>https://github.com/ModBros/mobro-plugin-template</RepositoryUrl>
-        <VersionPrefix>0.0.1</VersionPrefix>
+        <VersionPrefix>1.0.0</VersionPrefix>
         <IsPackable>false</IsPackable>
         <Nullable>enable</Nullable>
         <OutputType>Exe</OutputType>

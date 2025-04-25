@@ -1,7 +1,7 @@
 {
   "name": "example_plugin",
   "displayName": "Example Plugin",
-  "author": "",
+  "author": "Author",
   "description": null,
   "assembly": "Plugin.Template.dll",
   "localization": null,

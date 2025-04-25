@@ -2,7 +2,7 @@
 
 @REM publish the plugin
 dotnet publish^
-    --framework net7.0^
+    --framework net8.0^
     --runtime win-x64^
     --self-contained false^
     --configuration Release^

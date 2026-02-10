@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <RootNamespace>MoBro.Plugin.Template</RootNamespace>
         <Authors>ModBros</Authors>
         <Company>ModBros KG</Company>
         <Product>MoBro</Product>
         <Description>Plugin Template for MoBro</Description>
         <Title>MoBro Plugin Template</Title>
-        <Copyright>(C) ModBros KG 2025</Copyright>
+        <Copyright>(C) ModBros KG 2026</Copyright>
         <PackageProjectUrl>https://mobro.app</PackageProjectUrl>
         <RepositoryUrl>https://github.com/ModBros/mobro-plugin-template</RepositoryUrl>
         <VersionPrefix>1.0.0</VersionPrefix>
@@ -20,7 +20,7 @@
         <UseAppHost>false</UseAppHost>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <LangVersion>12</LangVersion>
+        <LangVersion>14</LangVersion>
         <InvariantGlobalization>true</InvariantGlobalization>
     </PropertyGroup>
 
@@ -32,7 +32,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="MoBro.Plugin.SDK" Version="1.0.1" PrivateAssets="all" />
+        <PackageReference Include="MoBro.Plugin.SDK" Version="1.1.1" PrivateAssets="all"/>
     </ItemGroup>
 
 </Project>
